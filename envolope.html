@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>信封</title>
+		<style type="text/css">
+			html,body{
+				width:640px;
+				height: 1030px;
+				margin:0px auto;
+			}
+			#bg{
+				background-color:#FCFAE1;
+				width:100%;
+				height: 100%;
+				margin:0px auto;
+				display: flex;
+				position: relative;
+			}
+			#title{
+				width:70%;
+				height:20%;
+				line-height: 20%;
+				margin:15% 10%;
+				position: absolute;
+			}
+			/*p{
+				top:10%;
+				font-size:30px;
+				color:saddlebrown;
+			}*/
+			#evolope{
+				display: flex;
+				position:absolute;
+				width:100%;
+				height:100%;
+				background-image: url(envelope.png);
+				background-repeat: no-repeat;
+				background-size:100%;
+			}
+			#letter{
+				width:100%;
+				height: 100%;
+				position:absolute;
+				background-image: url(card2.png);
+				background-repeat: no-repeat;
+				background-size:100%;
+				
+			}
+			#lettertext{
+				top:38%;
+				left:28%;
+				position: absolute;
+				font-size:28px;
+				color:grey;
+				font-weight: 500;
+				transition:all 3s ease;
+				transition-delay: 0.5s;
+				
+			}
+			/*#lettertext:hover{
+				color:black;
+				font-weight:700;
+			}*/
+			#bottomtext{
+				position: absolute;
+				width:90%;
+				height:18%;
+				bottom:5%;
+				left:10%;
+				color:#FCFAE1;
+				font-size:18px;
+				transition:all 3s ease;
+			}
+			
+			#button{
+				position: absolute;
+				top:51%;
+				right:27%;
+				
+			}
+			#button >a{
+				position:absolute;
+			    color:#000000;
+			    font-size:10px;
+			    justify-content: center;
+			    text-decoration: none;
+			    font-family: "STHupo";
+			}
+		</style>
+	</head>
+	<body>
+		<div id="bg">
+			<div id="title">
+				<p style="top:10%;font-size:30px;color:saddlebrown;">叮叮叮！</p>
+				<p style="top:10%;font-size:30px;color:saddlebrown;">您有一封来自濮院的信件</p>
+			</div>
+			<p id="bottomtext">
+				濮院小tips：
+					<br>濮院位于浙江省嘉兴桐乡市，全国10件毛衫，有7件出自濮院。
+						<br>濮院毛衫不仅畅销全国，还出口海外
+							<br>这里的毛衫款式躲到你想要的样子在这里都能找到！
+			</p>
+			<div id="evolope"></div>
+			<div id="letter" onmouseover="change()">
+				<p id="lettertext">您的专属毛衫卡片已送达</p>
+				<div id="button">
+					<a href="end.html">下一步</a>
+				</div>
+			</div>
+			
+		</div>
+		
+	</body>
+	<script>
+		function change(){
+			document.getElementById("lettertext").style.color="black";
+			document.getElementById("lettertext").style.fontWeight=700;
+			document.getElementById("bottomtext").style.color="burlywood";		
+		}
+	</script>
+</html>
