@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    position: relative;
+    width: 640px;
+    height: 1030px;
+    /* box-sizing: border-box; */
+    /* background-color: aqua; */
+    background: url("bg2.png") no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+    margin: 0 auto;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    overflow: hidden;
+}
+
+#curtain {
+    height: 10%;
+    /* background-color: bisque; */
+    background: url("curtain.png") no-repeat;
+    background-size: 100%;
+}
+
+
+#ganzi {
+    /* position: relative */
+    white-space: nowrap;
+    /* display: flex; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* background-color: blue; */
+    background: url("ganzi.png") no-repeat;
+    background-size: 100%;
+    margin-top: 50px;
+}
+#ganzi::-webkit-scrollbar {
+    display: none;
+}
+#ganzi li {
+    /* position: relative; */
+    /* float: left; */
+    display: inline-block;
+    cursor: pointer;
+    list-style: none;
+    /* overflow: hidden; */
+    width: 430px;
+    height: 550px;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#ganzi li:hover {
+    transform: scale(1.1);
+    -webkit-tap-highlight-color: transparent;
+}
+/* 第一件衣服 */
+#ganzi #c1 {
+    /* width: 132px; */
+    list-style: none;
+    margin-left: 135px;
+    /* background-color: brown; */
+    background: url("c1.png") no-repeat;
+    background-size: 90%;
+}
+
+#c2 {
+    /* width: 370px; */
+    /* background-color: brown; */
+    background: url("c2.png");
+
+}
+/* 最后一件衣服 */
+#c3 {
+    /* width: 138px; */
+    margin-right: 135px;
+    /* background-color: brown; */
+    background-image: url("c3.png");
+
+}
+
+#select {
+    position: absolute;
+    width: 320px;
+    height: 265px;
+    /* background-color: teal; */
+    background: url("select2.png") no-repeat;
+    background-size: 100%;
+    bottom: 0px;
+    left: 80px;
+}
+
+#select button {
+    position: absolute;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 103px;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+}
+
+#select button:nth-of-type(1) {
+    width: 55px;
+    height: 55px;
+    top: 106px;
+    border: 0px;
+}
+
+#select button:nth-of-type(1):hover {
+    border: 0;
+    transform: scale(0.9);
+}
+
+#select button:hover {
+    -webkit-tap-highlight-color: transparent;
+    border: 5px solid black;
+}
+
+#none {
+    left: 22px;
+    background-image: url("clear.png");
+}
+
+#color1 {
+    left: 90px;
+    background-image: url("c21.png");
+    /* background-color: #E9EAF6; */
+}
+
+#color2 {
+    right: 93px;
+    background-image: url("c22.png");
+}
+
+#color3 {
+    right: 20px;
+    background-image: url("c23.png");
+}
+
+#sheep {
+    position: absolute;
+    width: 200px;
+    height: 260px;
+    /* background-color: chocolate; */
+    background: url("sheep.png") no-repeat;
+    background-size: cover;
+    background-position: 35px 1px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#sheep a {
+    position: absolute;
+    display: inline-block;
+    -webkit-tap-highlight-color: transparent;
+    width: 90px;
+    height: 50px;
+    background-color: #E1CB9B;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    border: 6px solid black;
+    bottom: 62px;
+    left: 54px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    font-family: "华康海报体";
+}
+
+#style {
+    position: absolute;
+    top: 20px;
+    right: 55px;
+    width: 50px;
+    height: 35px;
+    font-size: 25px;
+    font-weight: bold;
+}

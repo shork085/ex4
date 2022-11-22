@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#main {
+    position: relative;
+    width: 640px;
+    height: 1030px;
+    margin: 0 auto;
+    background-color: #FCFAE1;
+}
+a {
+    position: absolute;
+    text-decoration: none;
+    cursor: default;
+    color: black;
+    font-size: 20px;
+    left: 80px;
+    top: 550px;
+}
+#bar {
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    /* background-color: aquamarine; */
+    background: url("progressbar.png") no-repeat;
+    background-size: 100%;
+    background-position: 0px -6px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+#wool {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    /* background-color: aquamarine; */
+    background: url("jump.png") no-repeat;
+    background-size: cover;
+    background-position: -10px 0px;
+    top: 400px;
+    left: 85px;
+}
+#right {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    /* background-color: aqua; */
+    background: url("topright.png") no-repeat;
+    background-size: 100%;
+    background-position: 10px -10px;
+    top: 0;
+    right: 0;
+}
+#left {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    /* background-color: aqua; */
+    background: url("bottomleft.png") no-repeat;
+    background-size: 100%;
+    background-position: -10px 20px;
+    bottom: 0;
+    left: 0;
+}

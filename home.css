@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#main {
+    position: relative;
+    width: 640px;
+    height: 1030px;
+    margin: 0px auto;
+    /* background-color: aqua; */
+    /* background: url("/CSS/img/bg.jpg") no-repeat; */
+    background: url("bg.png") no-repeat;
+    background-position: 0px -48px;
+    background-size: 100%;
+    overflow: hidden;
+}
+img {
+    position: absolute;
+    width: 2%;
+    bottom: 250px;
+    left: 20px;
+}
+#head {
+    position: absolute;
+    width: 440px;
+    height: 120px;
+    /* background-color: cadetblue; */
+    background: url("head.png") no-repeat;
+    background-size: 100%;
+    top: 130px;
+    right: 15px;
+    z-index: 1;
+}
+#head p {
+    position: absolute;
+    font-size: 60px;
+    /* font-weight: bold; */
+    font-family: "STHupo";
+    top: 28px;
+    left: 102px;
+}
+#subtitle {
+    position: absolute;
+    width: 160px;
+    height: 94px;
+    /* background-color: burlywood; */
+    background: url("subtitle.png") no-repeat;
+    background-size: 100%;
+    top: 255px;
+    left: 55px;
+    z-index: 1;
+}
+#yg {
+    position: absolute;
+    width: 610px;
+    height: 835px;
+    /* background-color: bisque; */
+    background: url("yg.png") no-repeat;
+    background-size: 100%;
+    background-position: 0px -185px;
+    bottom: 0;
+    right: 0;
+}
+#yg li {
+    /* float: left; */
+    position: absolute;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    list-style: none;
+}
+#yg li:hover {
+    transform: scale(1.1);
+    -webkit-tap-highlight-color: transparent;
+}
+#c1 {
+    width: 350px;
+    height: 590px;
+    /* background-color: brown; */
+    background: url("1.png");
+    top: 127px;
+    left: 62px;
+}
+#c2 {
+    width: 285px;
+    height: 502px;
+    /* background-color: blueviolet; */
+    background: url("2.png");
+    top: 165px;
+    right: 57px;
+}
+#c3 {
+    width: 310px;
+    height: 496px;
+    /* background-color: blue; */
+    background: url("3.png");
+    background-position-x: -148px;
+    top: 124px;
+    right: -153px;
+}
+#sheep {
+    position: absolute;
+    width: 200px;
+    height: 160px;
+    /* background-color: bisque; */
+    background: url("click.png") no-repeat;
+    background-size: 100%;
+    bottom: 0px;
+    left: 10px;
+}
+#start {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    /* background-color: aquamarine; */
+    background: url("start.png") no-repeat;
+    background-size: 100%;
+    bottom: 20px;
+    right: 20px;
+}
+#start a {
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    /* line-height: 90px; */
+    /* font-weight: 700; */
+    top: 41px;
+    left: 35px;
+    font-family: "STHupo";
+}

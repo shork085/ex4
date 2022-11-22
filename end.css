@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#main{
+    width: 640px;
+    height: 1030px;
+    margin: 0px auto;
+    position: relative;
+    /* display: flex; */
+    background: url("bg.png") no-repeat;
+    background-position: 0px -48px;
+    background-size:108%;
+    overflow: hidden;
+}
+img {
+    position: absolute;
+    width: 2%;
+    bottom: 250px;
+    left: 20px;
+}
+/*#box{
+    width:80%;
+    height:78%;
+    position: absolute;
+    background-color:black;
+    top:70px;
+    left:35px;
+    padding:23px 30px;
+}*/
+a {
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    font: "微软雅黑";
+    /* text-decoration: none; */
+    left: 12%;
+}
+a:nth-of-type(1) {
+    bottom: 8%;
+}
+a:nth-of-type(2) {
+    bottom: 5%;
+}
+
+#second{
+    position:absolute;
+    width:70%;
+    height:77%;
+    background-color:#FCFAE1;
+    top:60px;
+    left:75px;
+    /* margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    border:20px solid black;
+}
+#card{
+    width:90%;
+    height:94%;
+    position: absolute;
+    /* margin:16px 20px; */
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    border:3px solid black;
+    background-image: url(finalcard.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+p{
+    color:black;
+    font:"微软雅黑";
+}
+#name {
+    position: absolute;
+    line-height: 25px;;
+    font-size: 25px;
+    font-weight: 300;
+    top: 7%;
+    left: 8%;
+}
+p:nth-of-type(2){
+    position: absolute;
+    line-height:15px;
+    font-size:15px;
+    font-weight: 500;
+    top: 13%;
+    left: 8%;
+}
+p:nth-of-type(3){
+    position: absolute;
+    line-height: 17px;
+    font-size:17px;
+    font-weight: 500;
+    bottom: 10%;
+    right: 8%;
+}
+#cloth {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    /* background-color: blueviolet; */
+    background: url("cloth.png") no-repeat;
+    background-size: 100%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#main button {
+    position: absolute;
+    /* cursor: pointer; */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 5px solid black;
+    bottom: 5%;
+    background-color: #DAC79A;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 100%; */
+}
+#main button:hover {
+    transform: scale(1.1);
+}
+#b1 {
+    background-image: url("download.png");
+    background-size: 40%;
+    right: 40%;
+}
+#b2 {
+    background-image: url("wechat.png");
+    background-size: 103%;
+    right: 26%;
+}
+#b3 {
+    background-image: url("relay.png");
+    background-size: 65%;
+    right: 12%;
+}
